@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apis.</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <h1>Conversor de monedas Nacional</h1>
+            <div class="caja">
+                <h1>Pesos CLP</h1>
+                <input id="inputPesos" type="text" placeholder="Ingrese el monto en CLP">
+                <h3>Moneda a convertir</h3>
+                <select id="monedas">
+                    <option value="">Selecciona Moneda</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                </select>
+                <div>
+                    <button id="actualizarValor">Buscar</button>
+                    <p id="valorTotal">0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <script src="./assets/js/script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
